@@ -35,7 +35,7 @@ class BladeProvider extends ViewServiceProvider
     {
         $this->registerFilesystem();
         $this->registerEvents();
-        $parent::register();
+        parent::register();
     }
 
     /**
